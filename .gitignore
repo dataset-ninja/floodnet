@@ -3,6 +3,7 @@ __pycache__
 .venv/
 tmp/
 APP_DATA/
+APP-DATA/
 dataset_tools/
 dataset_tools
 supervisely/

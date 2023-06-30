@@ -105,8 +105,6 @@ def convert_and_upload_supervisely_project(
         ann_np = sly.imaging.image.read(mask_path)[:, :, 2]
 
         for i in np.unique(ann_np):
-            if i == 0:
-                continue
             obj_mask = ann_np == i
             curr_bitmap = sly.Bitmap(obj_mask)
             curr_obj_class = idx_to_objclasses[i]

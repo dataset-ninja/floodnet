@@ -13,10 +13,11 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "FloodNet (Track 1)"
+PROJECT_NAME: str = "FloodNet 2021 (Track 1)"
 PROJECT_NAME_FULL: str = (
-    "FloodNet: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding"
+    "FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding"
 )
+HIDE_DATASET = False  # set False when 100% sure about repo quality
 
 ##################################
 # * After uploading to instance ##
@@ -26,7 +27,7 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.SearchAndRescue(),
     Industry.Environmental(),
 ]
-CATEGORY: Category = Category.Aerial(extra=[Category.Safety(), Category.Environmental()])
+CATEGORY: Category = Category.Aerial(extra=[Category.Safety(), Category.Environmental(), Category.Drones()])
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]
@@ -80,7 +81,7 @@ ORGANIZATION_URL: Optional[Union[str, List[str]]] = [
 ]
 
 SLYTAGSPLIT: Optional[Dict[str, List[str]]] = {
-    "image classification task": ["flooded", "non-flooded"]
+    "semi-supervised classification sets": ["flooded", "non-flooded"]
 }
 TAGS: List[str] = None
 
@@ -103,6 +104,7 @@ def get_settings():
     settings = {
         "project_name": PROJECT_NAME,
         "license": LICENSE,
+        "hide_dataset": HIDE_DATASET,
         "applications": APPLICATIONS,
         "category": CATEGORY,
         "cv_tasks": CV_TASKS,

@@ -1,1 +1,1 @@
-FloodNet: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding is under [Community Data License Agreement - Permissive - Version 1.0](https://cdla.dev/permissive-1-0/) license.
+FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding is under [CDLA Permissive 1.0](https://cdla.dev/permissive-1-0/) license.

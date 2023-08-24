@@ -27,7 +27,9 @@ APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.SearchAndRescue(),
     Industry.Environmental(),
 ]
-CATEGORY: Category = Category.Aerial(extra=[Category.Safety(), Category.Environmental(), Category.Drones()])
+CATEGORY: Category = Category.Aerial(
+    extra=[Category.Safety(), Category.Environmental(), Category.Drones()]
+)
 
 CV_TASKS: List[CVTask] = [CVTask.SemanticSegmentation(), CVTask.Classification()]
 ANNOTATION_TYPES: List[AnnotationType] = [AnnotationType.SemanticSegmentation()]

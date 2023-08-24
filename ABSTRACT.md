@@ -11,5 +11,5 @@ For Track 1 ( Semi-supervised Classification and Semantic Segmentation), in the 
 
 The presented dataset contains annotations from *Track 1*. In this track, participants are required to complete two semi-supervised tasks. The first task is image classification, and the second task is semantic segmentation.
 
-1. Semi-Supervised Classification: Classification for FloodNet dataset requires classifying the images into ‘Flooded’ and ‘Non-Flooded’ classes. Only a few of the training images have their labels available, while most of the training images are unlabeled.
+1. Semi-Supervised Classification: Classification for FloodNet dataset requires classifying the images into ***flooded*** and ***non-flooded*** classes. Only a few of the training images have their labels available, while most of the training images are unlabeled.
 2. Semi-Supervised Semantic Segmentation: The semantic segmentation labels include: 1) *background*, 2) *building flooded*, 3) *building non-flooded*, 4) *road flooded*, 5) *road non-flooded*, 6) *water*, 7) *tree*, 8) *vehicle*, 9) *pool*, 10) *grass*. Only a small portion of the training images have their corresponding masks available.

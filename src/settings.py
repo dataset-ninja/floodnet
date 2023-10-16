@@ -38,7 +38,7 @@ RELEASE_DATE: Optional[str] = "2020-12-05"  # e.g. "YYYY-MM-DD"
 if RELEASE_DATE is None:
     RELEASE_YEAR: int = None
 
-HOMEPAGE_URL: str = "https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021#floodnet-dataset"
+HOMEPAGE_URL: str = "http://www.classic.grss-ieee.org/earthvision2021/challenge.html"
 # e.g. "https://some.com/dataset/homepage"
 
 PREVIEW_IMAGE_ID: int = 1412758
@@ -58,7 +58,10 @@ DOWNLOAD_ORIGINAL_URL: Optional[
 CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 # If specific colors for classes are needed, fill this dict (e.g. {"class1": [255, 0, 0], "class2": [0, 255, 0]})
 
-PAPER: Optional[str] = "https://arxiv.org/abs/2012.02951"
+PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/abs/2012.02951"
+BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021#floodnet-dataset"
+
 CITATION_URL: Optional[
     str
 ] = "https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021#paper-link"
@@ -125,6 +128,8 @@ def get_settings():
     settings["download_original_url"] = DOWNLOAD_ORIGINAL_URL
     settings["class2color"] = CLASS2COLOR
     settings["paper"] = PAPER
+    settings["blog"] = BLOGPOST
+    settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
     settings["organization_name"] = ORGANIZATION_NAME

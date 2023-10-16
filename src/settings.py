@@ -22,7 +22,7 @@ HIDE_DATASET = False  # set False when 100% sure about repo quality
 ##################################
 # * After uploading to instance ##
 ##################################
-LICENSE: License = License.CDLA_Permissive_1_0()
+LICENSE: License = License.CC_BY_SA_4_0(source_url="https://competitions.codalab.org/competitions/30290#learn_the_details-terms_and_conditions")
 APPLICATIONS: List[Union[Industry, Domain, Research]] = [
     Industry.SearchAndRescue(),
     Industry.Environmental(),

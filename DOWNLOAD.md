@@ -1,6 +1,6 @@
 Dataset **FloodNet 2021 (Track 1)** can be downloaded in [Supervisely format](https://developer.supervisely.com/api-references/supervisely-annotation-json-format):
 
- [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/h/R/Jh/a7YzoDJQFeaADXI1Y4MpfCWbGHZEmzBz2n2C8y3uILlRZJhRUaFH5QVHUKoKXyoh1VCyUbby7mdtiZaPaprPuqftLKwwrE8Zg08xKRAvu46yPijQgncDa47yK3jW.tar)
+ [Download](https://assets.supervisely.com/supervisely-supervisely-assets-public/teams_storage/K/D/oM/ic7KdpAYY2XlRvYtY7BVY4iTRIkwS9ybaYECKOQ0vFEofIwAgz8vXIKEMeC4WFEFpG16FtYRWHyV1mTaspgLYAWClpM61IjsBYh3WTKuAv75YyIo41LqpOtCvqy3.tar)
 
 As an alternative, it can be downloaded with *dataset-tools* package:
 ``` bash

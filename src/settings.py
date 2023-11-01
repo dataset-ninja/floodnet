@@ -60,7 +60,7 @@ CLASS2COLOR: Optional[Dict[str, List[str]]] = None
 
 PAPER: Optional[Union[str, List[str], Dict[str, str]]] = "https://arxiv.org/abs/2012.02951"
 BLOGPOST: Optional[Union[str, List[str], Dict[str, str]]] = None
-REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = "https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021#floodnet-dataset"
+REPOSITORY: Optional[Union[str, List[str], Dict[str, str]]] = {"GitHub":"https://github.com/BinaLab/FloodNet-Challenge-EARTHVISION2021#floodnet-dataset"}
 
 CITATION_URL: Optional[
     str

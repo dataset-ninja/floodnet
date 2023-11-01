@@ -73,6 +73,7 @@ AUTHORS: Optional[List[str]] = [
     "Masoud Yari",
     "Robin Murphy",
 ]
+AUTHORS_CONTACTS: Optional[List[str]] = ["maryam@umbc.edu", "tchowdhury@umbc.edu", "asarkar2@umbc.edu", "dvarshney@umbc.edu", "yari@umbc.edu", "murphy@cse.tamu.edu"]
 
 ORGANIZATION_NAME: Optional[Union[str, List[str]]] = [
     "UMBC, USA",
@@ -132,6 +133,7 @@ def get_settings():
     settings["repository"] = REPOSITORY
     settings["citation_url"] = CITATION_URL
     settings["authors"] = AUTHORS
+    settings["authors_contacts"] = AUTHORS_CONTACTS
     settings["organization_name"] = ORGANIZATION_NAME
     settings["organization_url"] = ORGANIZATION_URL
     settings["slytagsplit"] = SLYTAGSPLIT

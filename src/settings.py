@@ -13,9 +13,9 @@ from dataset_tools.templates import (
 ##################################
 # * Before uploading to instance #
 ##################################
-PROJECT_NAME: str = "FloodNet 2021 (Track 1)"
+PROJECT_NAME: str = "FloodNet 2021: Track 1"
 PROJECT_NAME_FULL: str = (
-    "FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding"
+    "FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding (Track 1)"
 )
 HIDE_DATASET = False  # set False when 100% sure about repo quality
 

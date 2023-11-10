@@ -1,4 +1,4 @@
-**FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding (Track 1)** is a dataset for semantic segmentation and classification tasks. It is used in the search and rescue (SAR) and environmental industries. 
+**FloodNet 2021: A High Resolution Aerial Imagery Dataset for Post Flood Scene Understanding (Track 1)** is a dataset for semantic segmentation, classification, and semi supervised learning tasks. It is used in the search and rescue (SAR) and environmental industries. 
 
 The dataset consists of 2343 images with 1517 labeled objects belonging to 10 different classes including *grass*, *tree*, *road non-flooded*, and other: *water*, *building non-flooded*, *vehicle*, *pool*, *road flooded*, *building flooded*, and *background*.
 
